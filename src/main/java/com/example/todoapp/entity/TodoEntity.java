@@ -19,5 +19,4 @@ public class TodoEntity {
     @JsonFormat(pattern="yyyy-MM-dd HH:mm:ss")
     private LocalDateTime deadLine;
 
-    //just an unwanted change
 }
