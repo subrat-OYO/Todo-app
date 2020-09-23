@@ -17,6 +17,11 @@ public class TodoController {
     @Autowired
     private TodoService service;
 
+    @GetMapping
+    public String home(){
+        return "welcome home...";
+    }
+
     @GetMapping("/all")
     public ResponseEntity<ArrayList<TodoEntity>> allTask(){
 
