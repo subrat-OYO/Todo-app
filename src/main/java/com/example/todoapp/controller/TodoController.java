@@ -22,6 +22,8 @@ public class TodoController {
         return "welcome home master...";
     }
 
+    //merge to local master branch
+
     @GetMapping("/all")
     public ResponseEntity<ArrayList<TodoEntity>> allTask(){
 
