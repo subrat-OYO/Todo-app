@@ -19,7 +19,7 @@ public class TodoController {
 
     @GetMapping
     public String home(){
-        return "welcome home...";
+        return "welcome to featureX home...";
     }
 
     @GetMapping("/all")
