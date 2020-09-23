@@ -17,6 +17,7 @@ public class TodoService  {
     private TodoRepository repository;
 
 
+
     public ResponseEntity<ArrayList<TodoEntity>> getAll(){
         ArrayList<TodoEntity> list = new ArrayList<>();
 
@@ -30,6 +31,7 @@ public class TodoService  {
         return ResponseEntity.ok().body(repository.findById(id).get());
 
     }
+
 
     public ResponseEntity<TodoEntity> getByTitle( String title){
 
